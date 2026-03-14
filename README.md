@@ -35,21 +35,24 @@ A atividade propõe a construção e evolução da comunicação em rede, passan
 
 ## 📂 Organização de Pastas
 
-A estrutura do projeto está dividida de acordo com as versões desenvolvidas:
+A estrutura do projeto está dividida em pacotes dentro do diretório `src`:
 
 ```text
 Rel-gio-Mundial-TCP-UDP/
-├── udp-clock/                 # Versão 1: Implementação usando protocolo UDP
-│   ├── ClienteUDP.java
-│   └── ServidorUDP.java
-├── tcp-clock-simple/          # Versão 2: Implementação TCP Sequencial (Single-thread)
-│   ├── ClienteTCP.java
-│   └── ServidorTCPSingle.java
-├── tcp-clock-multithread/     # Versão 3: Implementação TCP Concorrente (Multi-thread)
-│   ├── ClienteTCP.java        # (Pode ser o mesmo cliente da versão 2)
-│   └── ServidorTCPMulti.java
-└── README.md                  # Documentação do projeto
+├── src/
+│   ├── udp_clock/                 # Versão 1: Implementação usando protocolo UDP
+│   │   ├── ClienteUDP.java
+│   │   └── ServidorUDP.java
+│   ├── tcp_clock_simple/          # Versão 2: Implementação TCP Sequencial (Single-thread)
+│   │   ├── ClienteTCP.java
+│   │   └── ServidorTCPSingle.java
+│   └── tcp_clock_multithread/     # Versão 3: Implementação TCP Concorrente (Multi-thread)
+│       ├── ClienteTCP.java        
+│       └── ServidorTCPMulti.java
+└── README.md   
 ```
+
+# Documentação do projeto
 👥 Contribuições da Equipe
 <table>
 <tr>
